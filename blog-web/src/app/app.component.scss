@@ -1,0 +1,28 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+mat-toolbar {
+  display: flex;
+  justify-content: space-between; /* Distribute items horizontally */
+  align-items: center; /* Vertically align items in the center */
+  padding: 0 16px; /* Add some padding on the left and right */
+}
+
+.example-spacer {
+  flex-grow: 1; /* Takes up remaining space to push buttons to the right */
+}
+
+/* Style for the menu icon button (optional) */
+.example-icon {
+  margin-right: 8px;
+}
+
+/* Style for the favorite icon button (optional) */
+.favorite-icon {
+  margin-left: 8px;
+}
+
+/* Style for the raised buttons */
+button[mat-raised-button] {
+  margin-left: 8px; /* Add spacing between buttons */
+}
